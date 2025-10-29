@@ -164,3 +164,20 @@ branch 'main' set up to track 'origin/main'.
 Everything up-to-date
 
 C:\Users\91912\Desktop\xyz>
+
+C:\Users\91912\Desktop\xyz>git add .
+
+C:\Users\91912\Desktop\xyz>git commit -m "Added cursors.txt"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\91912\Desktop\xyz>git add .
+
+C:\Users\91912\Desktop\xyz>git commit -m cursors.txt "Added cursors.txt"
+error: pathspec 'Added cursors.txt' did not match any file(s) known to git
+
+C:\Users\91912\Desktop\xyz>git remote -v
+origin  https://github.com/Arjun9253/xyz.git (fetch)
+origin  https://github.com/Arjun9253/xyz.git (push)
