@@ -1,1 +1,166 @@
-"new content" 
+Microsoft Windows [Version 10.0.26200.6901]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\91912\Desktop\xyz>git init
+Initialized empty Git repository in C:/Users/91912/Desktop/xyz/.git/
+
+C:\Users\91912\Desktop\xyz>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+C:\Users\91912\Desktop\xyz>git add dot
+fatal: pathspec 'dot' did not match any files
+
+C:\Users\91912\Desktop\xyz>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\91912\Desktop\xyz>git add 005402
+fatal: pathspec '005402' did not match any files
+
+C:\Users\91912\Desktop\xyz>git add Charitha Aadhar
+fatal: pathspec 'Charitha' did not match any files
+
+C:\Users\91912\Desktop\xyz>git add Charith Aadhar.txt
+fatal: pathspec 'Charith' did not match any files
+
+C:\Users\91912\Desktop\xyz>git add Charitha Aadhar.txt
+fatal: pathspec 'Charitha' did not match any files
+
+C:\Users\91912\Desktop\xyz>Git add --all
+
+C:\Users\91912\Desktop\xyz>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   005402.JPG
+        new file:   Charitha Aadhar.pdf
+        new file:   MBA 3rd Sem Hallticket.jpg
+        new file:   cook certificate of  balaji, caterers pune - Copy.pdf
+
+
+C:\Users\91912\Desktop\xyz>git commit 005402.jpg
+error: pathspec '005402.jpg' did not match any file(s) known to git
+
+C:\Users\91912\Desktop\xyz>git commit -m "Initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '91912@ArjunPn.(none)')
+
+C:\Users\91912\Desktop\xyz>git commit 005402.JPG -m "Added image"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '91912@ArjunPn.(none)')
+
+C:\Users\91912\Desktop\xyz>git add 005402.JPG
+
+C:\Users\91912\Desktop\xyz>git commit -m "Added 005402 image"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '91912@ArjunPn.(none)')
+
+C:\Users\91912\Desktop\xyz>git config --global user.name "Arjun Pn"
+
+C:\Users\91912\Desktop\xyz>git config --global user.email "arjunpn253@gmail.com"
+
+C:\Users\91912\Desktop\xyz>git config --global --list
+user.name=Arjun Pn
+user.email=arjunpn253@gmail.com
+
+C:\Users\91912\Desktop\xyz>git add .
+
+C:\Users\91912\Desktop\xyz>git commit -m "initial commit"
+[master (root-commit) d870853] initial commit
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 005402.JPG
+ create mode 100644 Charitha Aadhar.pdf
+ create mode 100644 MBA 3rd Sem Hallticket.jpg
+ create mode 100644 cook certificate of  balaji, caterers pune - Copy.pdf
+
+C:\Users\91912\Desktop\xyz>git commit -m "Added 005402 image"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\91912\Desktop\xyz>git commit -m "Added 005402 image"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\91912\Desktop\xyz>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\91912\Desktop\xyz>git add --all
+
+C:\Users\91912\Desktop\xyz>git commit -m "Added 005402 image"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\91912\Desktop\xyz>git add .
+
+C:\Users\91912\Desktop\xyz>git commit -m "initial commit"
+On branch master
+nothing to commit, working tree clean
+ 
+
+ C:\Users\91912\Desktop\xyz>https://github.com/Arjun9253/xyz.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\91912\Desktop\xyz>git remote add origin https://github.com/Arjun9253/xyz.git
+
+C:\Users\91912\Desktop\xyz>git branch -M main
+
+C:\Users\91912\Desktop\xyz>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 7.91 MiB | 2.53 MiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Arjun9253/xyz.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\91912\Desktop\xyz>git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+C:\Users\91912\Desktop\xyz>
